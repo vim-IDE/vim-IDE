@@ -1,7 +1,13 @@
 vim-ide
 =====================
 
-[TOC]
+Table of contents
+
+- [What's the purpose of vim-ide ?](#)
+- [Installation](#)
+- [Functionnalities (comparison with GUI IDE)](#)
+- [Plugins (See each plugins repository to have more informations)](#)
+- [Improvements](#)
 
 What's the purpose of vim-ide ?
 ==========================
@@ -41,10 +47,6 @@ If you decide to not install a plugin, you have to comment the configuration fil
 ```
 :PlugInstall
 ```
-
- 4. Enjoy !
-
------------------
 
 Functionnalities (comparison with GUI IDE)
 ===================================
