@@ -31,7 +31,7 @@ Installation
  ```
  Plugin 'vim-IDE/vim-go'
  ```
- 
+
  ```
  # Plugin 'vim-IDE/vim-go'
  ```
@@ -58,6 +58,7 @@ Functionnalities (comparison with GUI IDE)
  - **Project management**: work with C, C++, PHP, HTML/CSS, JS, JAVA, PYTHON (using *Eclim*)
  - **Fast commenting**: work with a lot of filetype (using *NerdCommenter*)
  - **Android development**: with *Eclim*, it provides a complete interface to *Eclipse* functionnalities.
+ - **Markdown edition**: By default in vim.
  - **Web development**: syntax checker and highlighting (default in vim).
 
 -------------------
