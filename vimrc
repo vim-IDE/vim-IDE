@@ -43,7 +43,7 @@ Plug 'vim-IDE/bash-support.vim'
 " 	- Write code und comments with a professional appearance from the
 " 	beginning.
 " 	- Use code snippets
-Plug 'vim-IDE/c.vim', {'branch': 'allman'}
+Plug 'vim-IDE/c.vim'
 
 " vim-arduino-ino:
 " 	Provides an interface and some shortcuts to ino for arduino
