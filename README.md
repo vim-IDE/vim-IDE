@@ -121,3 +121,4 @@ Improvements
  in the vimrc before launching *:PlugInstall*.
  For now, only the allman indent style is available. Others are coming soon. You're free to help and share your own indent style.
  - It would be nice to add plugins for web development. The default vim options don't use the power of vim.
+ - Add more plugins improving programming languages support in the default vimrc such as OCaml (merlin), javascript (vim-javascript), scala (vim-scala), etc.
