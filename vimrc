@@ -50,6 +50,17 @@ Plug 'vim-IDE/c.vim'
 " 	develpment.
 " 	Fork from https://github.com/jplaut/vim-arduino-ino
 Plug 'vim-IDE/vim-arduino-ino'
+
+" Plugins improving web development support.
+"
+" html5.vim
+" 	HTML5 + inline SVG omnicomplete function, indent and syntax for Vim. Based
+" 	on the default htmlcomplete.vim.
+Plug 'vim-IDE/html5.vim'
+
+" vim-css3-syntax.vim
+" 	Add CSS3 syntax support to Vim's built-in syntax/css.vim.
+Plug 'vim-IDE/vim-css3-syntax'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
