@@ -33,3 +33,5 @@ syntax on
 " If a plugin has his proper syntax checkers, the default will be overwrite
 " because misc is the first inserted.
 set omnifunc=syntaxcomplete#Complete
+
+filetype plugin on
