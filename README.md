@@ -56,7 +56,7 @@ Functionnalities (comparison with GUI IDE)
  - **Integrated version control**: Git integration (using *fugitive*)
  - **Refactoring**: work (at the moment) with java using JavaRename (using *Eclim*), and OCaml (using *merlin*, manually installed)
  - **Building**: Fast access to build and deploy functionnalities.
- - **Autocompletion**: work with a lot of languages (using *YouCompleteMe*)
+ - **Autocompletion**: work with a lot of languages (using *AutoComplPop*)
  - **Project management**: work with C, C++, PHP, HTML/CSS, JS, JAVA, PYTHON (using *Eclim*)
  - **Fast commenting**: work with a lot of filetype (using *NerdCommenter*)
  - **Android development**: with *Eclim*, it provides a complete interface to *Eclipse* functionnalities.
@@ -81,7 +81,7 @@ Plugins (See each plugins repository to have more informations)
 	- **NerdTree**: File manager. Show in a split windows a tree with your files. It's an alternative for *Eclim* if you edit something not supported by *Eclim*.
 
 - Autocompletion:
-	- **YouCompleteMe**: show popup for autocompletion when typing.
+	- **AutoComplPop**: show popup for autocompletion when typing.
 
 - Snippets:
 	- **Snippets**: provide snippers in a large category of filetypes
