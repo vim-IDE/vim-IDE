@@ -28,6 +28,7 @@ Installation
   ```
   git clone https://github.com/vim-IDE/vim-IDE.git ~/.vim-ide
   tar -cvf old.vim.configuration.tar ~/.vim ~/.vimrc
+  rm -rf ~/.vim ~/.vimrc
   ln -s ~/.vim-ide/vim ~/.vim
   ln -s ~/.vim-ide/vimrc ~/.vimrc
   ```
