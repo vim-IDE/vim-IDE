@@ -43,6 +43,7 @@ Plug 'vim-IDE/bash-support.vim'
 " 	- Write code und comments with a professional appearance from the
 " 	beginning.
 " 	- Use code snippets
+" 	Fork from https://github.com/vim-scripts/c.vim
 Plug 'vim-IDE/c.vim'
 
 " vim-arduino-ino:
@@ -56,10 +57,12 @@ Plug 'vim-IDE/vim-arduino-ino'
 " html5.vim
 " 	HTML5 + inline SVG omnicomplete function, indent and syntax for Vim. Based
 " 	on the default htmlcomplete.vim.
+" 	Fork from https://github.com/othree/html5.vim
 Plug 'vim-IDE/html5.vim'
 
 " vim-css3-syntax.vim
 " 	Add CSS3 syntax support to Vim's built-in syntax/css.vim.
+" 	Fork from https://github.com/hail2u/vim-css3-syntax
 Plug 'vim-IDE/vim-css3-syntax'
 " -----------------------------------------------------------------------------
 
@@ -68,6 +71,7 @@ Plug 'vim-IDE/vim-css3-syntax'
 "
 " vim-fugitive:
 " 	Git integration inside vim
+" 	Fork from https://github.com/tpope/vim-fugitive
 Plug 'vim-IDE/vim-fugitive'
 
 " taglist:
@@ -75,6 +79,7 @@ Plug 'vim-IDE/vim-fugitive'
 " 	Provides an overview of the structure of source code files and allow
 " 	you to efficiently browse through source code files for different
 " 	programming languages.
+" 	Fork from https://github.com/vim-scripts/taglist.vim
 Plug 'vim-IDE/taglist.vim'
 
 " AutoComplPop:
@@ -88,7 +93,7 @@ Plug 'vim-IDE/AutoComplPop'
 " 	and directories. It presents the filesystem to you in a tree  form tree
 " 	which you manipulate with the keyboard and/or mouse (if set mouse=a
 " 	activated). It also allows you to perform simple filesystem operations.
-" 	Fork from https://github.com/vim-IDE/nerdtree
+" 	Fork from https://github.com/scrooloose/nerdtree
 Plug 'vim-IDE/nerdtree'
 
 " nerdcommenter:
@@ -211,3 +216,5 @@ source ~/.vim/configuration/python.vimrc
 source ~/.vim/configuration/java.vimrc
 
 source ~/.vim/configuration/php.vimrc
+
+source ~/.vim/configuration/make.vimrc
