@@ -42,12 +42,31 @@ Installation
  ```
  # Plugin 'vim-IDE/vim-go'
  ```
-If you decide to not install a plugin, you have to comment the configuration file (if there's one). They are at the end of the vimrc file.
+If you decide to not install a plugin, you have to comment the configuration file (if there's one). They are at the end of the vimrc file and saved in the directory *vim/configuration*.
 
- 3. Install plugins by open vim and type
+ 3. Install plugins by opening vim and type
 ```
 :PlugInstall
 ```
+or directly in a terminal
+```
+vim +PlugInstall
+```
+
+ 4. (Optionnal) Plugins are frequently updated, and you can be interrested to get the updated plugins.
+ You can manually update by typing, in vim, the command
+```
+:PlugUpdate
+```
+or directly in a terminal
+```
+vim +PlugUpdate
+```
+ You can also use a cron job to update automatically the plugins by inserting the command
+```
+vim +PlugUpdate
+```
+in the cron file.
 
 Functionnalities (comparison with GUI IDE)
 ===================================
