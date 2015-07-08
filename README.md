@@ -126,6 +126,7 @@ Plugins (See each plugins repository to have more informations)
 	- **html5.vim**: improved HTML5 support.
 	- **vim-css3-syntax**: improved CSS3 support.
 	- **MatchTagAlways**: highlight tags couples.
+	- **vim-less**: support for less syntax.
 
 - Arduino development:
 	- **vim-arduino-ino**: provides keybindings and access to template like *arduino-ide*. Use *ino*.
