@@ -71,29 +71,23 @@ in the cron file.
 Functionnalities (comparison with GUI IDE)
 ===================================
 
- - **Templates**: work with C/C++, LaTeX, Shell (using *c-vim*, *latex-suite*, *bash-support*)
  - **Syntax highlightning/checking**: work with a lot of languages, and warning you as you type for syntax errors.
  - **Integrated version control**: Git integration (using *fugitive*)
- - **Refactoring**: work (at the moment) with java using JavaRename (using *Eclim*), and OCaml (using *merlin*, manually installed)
  - **Building**: Fast access to build and deploy functionnalities.
  - **Autocompletion**: work with a lot of languages (using *AutoComplPop*)
- - **Project management**: work with C, C++, PHP, HTML/CSS, JS, JAVA, PYTHON (using *Eclim*)
+ - **Project management**: work with PHP, HTML/CSS, JS (using *Eclim*)
  - **Fast commenting**: work with a lot of filetype (using *NerdCommenter*)
- - **Android development**: with *Eclim*, it provides a complete interface to *Eclipse* functionnalities.
- - **Markdown edition**: By default in vim.
- - **Web development**: syntax checker and highlighting (default in vim).
-   Improved with two plugins for HTML5 and CSS3. It matches tags with *MatchTagAlways*.
+ - **Web develoent**: syntax checker and highlighting (default in vim).
+   Improved with two plugins for HTML5, CSS3 and LESS. It matches tags with *MatchTagAlways*.
 
 -------------------
 Plugins (See each plugins repository to have more informations)
 =======
-- Programming languages support:
-- Vim supports a huge range of programming languages by default. But, it exists some plugins that improve some programming languages support.
-	- **C**: c-vim
-	- **Shell**: bash-support.vim
-	- **LaTeX**: latex-suite
-	- **Go**: vim-go
-  - **Arduino**: vim-arduino-ino
+- Web development:
+	- **html5.vim**: improved HTML5 support.
+	- **vim-css3-syntax**: improved CSS3 support.
+	- **MatchTagAlways**: highlight tags couples.
+	- **vim-less**: support for less syntax.
 
 - Syntax highlightning:
 
@@ -122,15 +116,6 @@ Plugins (See each plugins repository to have more informations)
 - Source code browsing:
 	- **tag-list**: provides a list with all defined variables and functions and give direct access to their definition.
 
-- Web development:
-	- **html5.vim**: improved HTML5 support.
-	- **vim-css3-syntax**: improved CSS3 support.
-	- **MatchTagAlways**: highlight tags couples.
-	- **vim-less**: support for less syntax.
-
-- Arduino development:
-	- **vim-arduino-ino**: provides keybindings and access to template like *arduino-ide*. Use *ino*.
-
 - MISC:
 	- **number-vim**: improve line numbering
 	- **vim-airline**: Provide a rich status line, showing the branch you're working on.
@@ -141,10 +126,4 @@ Improvements
 =================================================
 
  - *Eclim*: For now, you need to install manually. See http://eclim.org/ to install it and for documentation.
- - *c.vim*: You can choose which indent style you want, which are in a specific branch. By default, **vim-IDE** use the master branch of the git repository. If you use the *allman* indent style, type
- ```
- Plug 'vim-IDE/c.vim', {"branch': 'allman'}
- ```
- in the vimrc before launching *:PlugInstall*.
- For now, only the allman indent style is available. Others are coming soon. You're free to help and share your own indent style.
- - Add more plugins improving programming languages support in the default vimrc such as OCaml (merlin), javascript (vim-javascript), scala (vim-scala), etc.
+ - Add more functionnalities such as Grunt/Gulp keybindings, SASS support, etc.

@@ -13,45 +13,8 @@ call plug#begin('~/.vim/bundle')
 " Some of them need some configurations. These are listing in a file (named as
 " the plugin) in the [source] directory. They are included after the plugin
 " list.
-" -----------------------------------------------------------------------------
-" Plugins improving programming languages support
 "
-" vim-go:
-" 	Go support for vim.
-" 	Offers autocomplete, snipper support, improve syntax highlighting, go
-" 	toolchain command.
-" 	Fork from https://github.com/fatih/vim-go
-"Plug 'vim-IDE/vim-go'
-
-" vim-latex:
-" 	Enhanced LaTeX support for vim by providing templates (and command to
-" 	insert them easily --> :TTemplate) , fast environment insertion (F5),
-" 	and more.
-" 	Fork from https://github.com/vim-latex/vim-latex
-"lug 'vim-IDE/vim-latex'
-
-" bash-support.vim:
-" 	Improves bash support by providing shortcuts to insert comment,
-" 	template, headers, insert statements, tests, variables, etc.
-" 	Fork from https://github.com/vim-scripts/bash-support.vim
-"lug 'vim-IDE/bash-support.vim'
-
-" c.vim:
-" 	Improves c support
-" 	- Statement oriented editing of  C / C++ programs
-" 	- Speed up writing new code considerably.
-" 	- Write code und comments with a professional appearance from the
-" 	beginning.
-" 	- Use code snippets
-" 	Fork from https://github.com/vim-scripts/c.vim
-"lug 'vim-IDE/c.vim'
-
-" vim-arduino-ino:
-" 	Provides an interface and some shortcuts to ino for arduino
-" 	develpment.
-" 	Fork from https://github.com/jplaut/vim-arduino-ino
-"lug 'vim-IDE/vim-arduino-ino'
-
+" -----------------------------------------------------------------------------
 " Plugins improving web development support.
 "
 " html5.vim
@@ -211,21 +174,11 @@ source ~/.vim/configuration/vim_win.vimrc
 source ~/.vim/configuration/syntastic.vimrc
 source ~/.vim/configuration/nerdtree.vimrc
 source ~/.vim/configuration/ctrlp.vimrc
-"source ~/.vim/configuration/latex-suite.vimrc
-"source ~/.vim/configuration/cvim.vimrc
 source ~/.vim/configuration/taglist.vimrc
 source ~/.vim/configuration/vim-airline.vimrc
 
 " You need to install eclim manually.
-"source ~/.vim/configuration/eclim.vimrc
-"
-" - Programming source configuration which aren't in a plugin
-" python.vimrc:
-" 	Provides a shortcut (F5) to run the current file.
-"source ~/.vim/configuration/python.vimrc
+source ~/.vim/configuration/eclim.vimrc
 
-" java.vimrc:
-" 	Replace tab with spaces (4 by default in misc.vimrc) in java files.
-"source ~/.vim/configuration/java.vimrc
-
+" Web development configuration file.
 source ~/.vim/configuration/web.vimrc
