@@ -154,6 +154,13 @@ Plug 'vim-IDE/vim-better-whitespace'
 " 	See README.md to learn how to add your own todo filetype.
 " 	Fork from https://github.com/samsonw/vim-task
 Plug 'vim-IDE/vim-task'
+
+" MatchTagAlways
+" The MatchTagAlways.vim (MTA) plug-in for the Vim text editor always highlights
+" the XML/HTML tags that enclose your cursor location.
+" 	Fork from https://github.com/dannywillems/MatchTagAlways (multiple filetype
+" 	improvement).
+Plug 'vim-IDE/MatchTagAlways'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
