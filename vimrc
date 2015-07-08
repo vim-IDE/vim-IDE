@@ -21,20 +21,20 @@ call plug#begin('~/.vim/bundle')
 " 	Offers autocomplete, snipper support, improve syntax highlighting, go
 " 	toolchain command.
 " 	Fork from https://github.com/fatih/vim-go
-Plug 'vim-IDE/vim-go'
+"Plug 'vim-IDE/vim-go'
 
 " vim-latex:
 " 	Enhanced LaTeX support for vim by providing templates (and command to
 " 	insert them easily --> :TTemplate) , fast environment insertion (F5),
 " 	and more.
 " 	Fork from https://github.com/vim-latex/vim-latex
-Plug 'vim-IDE/vim-latex'
+"lug 'vim-IDE/vim-latex'
 
 " bash-support.vim:
 " 	Improves bash support by providing shortcuts to insert comment,
 " 	template, headers, insert statements, tests, variables, etc.
 " 	Fork from https://github.com/vim-scripts/bash-support.vim
-Plug 'vim-IDE/bash-support.vim'
+"lug 'vim-IDE/bash-support.vim'
 
 " c.vim:
 " 	Improves c support
@@ -44,13 +44,13 @@ Plug 'vim-IDE/bash-support.vim'
 " 	beginning.
 " 	- Use code snippets
 " 	Fork from https://github.com/vim-scripts/c.vim
-Plug 'vim-IDE/c.vim'
+"lug 'vim-IDE/c.vim'
 
 " vim-arduino-ino:
 " 	Provides an interface and some shortcuts to ino for arduino
 " 	develpment.
 " 	Fork from https://github.com/jplaut/vim-arduino-ino
-Plug 'vim-IDE/vim-arduino-ino'
+"lug 'vim-IDE/vim-arduino-ino'
 
 " Plugins improving web development support.
 "
@@ -64,6 +64,12 @@ Plug 'vim-IDE/html5.vim'
 " 	Add CSS3 syntax support to Vim's built-in syntax/css.vim.
 " 	Fork from https://github.com/hail2u/vim-css3-syntax
 Plug 'vim-IDE/vim-css3-syntax'
+
+" vim-less
+" 	This vim bundle adds syntax highlighting, indenting and autocompletion for the
+" 	dynamic stylesheet language LESS.
+" 	Fork from https://github.com/groenewege/vim-less
+Plug 'vim-IDE/vim-less'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
@@ -205,21 +211,21 @@ source ~/.vim/configuration/vim_win.vimrc
 source ~/.vim/configuration/syntastic.vimrc
 source ~/.vim/configuration/nerdtree.vimrc
 source ~/.vim/configuration/ctrlp.vimrc
-source ~/.vim/configuration/latex-suite.vimrc
-source ~/.vim/configuration/cvim.vimrc
+"source ~/.vim/configuration/latex-suite.vimrc
+"source ~/.vim/configuration/cvim.vimrc
 source ~/.vim/configuration/taglist.vimrc
 source ~/.vim/configuration/vim-airline.vimrc
 
 " You need to install eclim manually.
-source ~/.vim/configuration/eclim.vimrc
+"source ~/.vim/configuration/eclim.vimrc
 "
 " - Programming source configuration which aren't in a plugin
 " python.vimrc:
 " 	Provides a shortcut (F5) to run the current file.
-source ~/.vim/configuration/python.vimrc
+"source ~/.vim/configuration/python.vimrc
 
 " java.vimrc:
 " 	Replace tab with spaces (4 by default in misc.vimrc) in java files.
-source ~/.vim/configuration/java.vimrc
+"source ~/.vim/configuration/java.vimrc
 
 source ~/.vim/configuration/web.vimrc
