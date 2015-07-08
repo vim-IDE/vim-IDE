@@ -215,6 +215,4 @@ source ~/.vim/configuration/python.vimrc
 " 	Replace tab with spaces (4 by default in misc.vimrc) in java files.
 source ~/.vim/configuration/java.vimrc
 
-source ~/.vim/configuration/php.vimrc
-
-source ~/.vim/configuration/make.vimrc
+source ~/.vim/configuration/web.vimrc
