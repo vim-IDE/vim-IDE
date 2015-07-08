@@ -104,9 +104,6 @@ Plugins (See each plugins repository to have more informations)
 - Comments:
 	- **NerdCommenter**: provides shortcuts to (un)comment lines in several filetype
 
-- Build and deploy applications:
-	- **Eclim**: Build and deploy *Android* applications. Need to be installed manually.
-
 - Version control:
 	- **Fugitive**: provides git command by using *:Git add*, *:Git commit*, etc directly in vim.
 
