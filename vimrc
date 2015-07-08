@@ -64,6 +64,12 @@ Plug 'vim-IDE/html5.vim'
 " 	Add CSS3 syntax support to Vim's built-in syntax/css.vim.
 " 	Fork from https://github.com/hail2u/vim-css3-syntax
 Plug 'vim-IDE/vim-css3-syntax'
+
+" vim-less
+" 	This vim bundle adds syntax highlighting, indenting and autocompletion for
+" 	the dynamic stylesheet language LESS.
+" 	Fork from https://github.com/groenewege/vim-less
+Plug 'vim-IDE/vim-less'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
