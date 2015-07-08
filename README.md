@@ -82,7 +82,7 @@ Functionnalities (comparison with GUI IDE)
  - **Android development**: with *Eclim*, it provides a complete interface to *Eclipse* functionnalities.
  - **Markdown edition**: By default in vim.
  - **Web development**: syntax checker and highlighting (default in vim).
-   Improved with two plugins for HTML5 and CSS3.
+   Improved with two plugins for HTML5 and CSS3. It matches tags with *MatchTagAlways*.
 
 -------------------
 Plugins (See each plugins repository to have more informations)
@@ -125,6 +125,7 @@ Plugins (See each plugins repository to have more informations)
 - Web development:
 	- **html5.vim**: improved HTML5 support.
 	- **vim-css3-syntax**: improved CSS3 support.
+	- **MatchTagAlways**: highlight tags couples.
 
 - Arduino development:
 	- **vim-arduino-ino**: provides keybindings and access to template like *arduino-ide*. Use *ino*.
@@ -146,4 +147,3 @@ Improvements
  in the vimrc before launching *:PlugInstall*.
  For now, only the allman indent style is available. Others are coming soon. You're free to help and share your own indent style.
  - Add more plugins improving programming languages support in the default vimrc such as OCaml (merlin), javascript (vim-javascript), scala (vim-scala), etc.
- - vim-bookmarks could be added soon.
