@@ -71,14 +71,16 @@ in the cron file.
 Functionnalities (comparison with GUI IDE)
 ===================================
 
+ - **Snippets**: insert snippets rapidly with *vim-snippets*. It improves your
+   productivity by avoiding you to type a long function or instruction.
  - **Syntax highlightning/checking**: work with a lot of languages, and warning you as you type for syntax errors.
  - **Integrated version control**: Git integration (using *fugitive*)
  - **Building**: Fast access to build and deploy functionnalities.
  - **Autocompletion**: work with a lot of languages (using *AutoComplPop*)
  - **Project management**: work with PHP, HTML/CSS, JS (using *Eclim*)
  - **Fast commenting**: work with a lot of filetype (using *NerdCommenter*)
- - **Web develoent**: syntax checker and highlighting (default in vim).
-   Improved with two plugins for HTML5, CSS3 and LESS. It matches tags with *MatchTagAlways*.
+ - **Web development**: syntax checker and highlighting (default in vim).
+   Improved with two plugins for HTML5 and CSS3, supporting LESS and providing Bootstrap snippets. It matches tags with *MatchTagAlways*.
 
 -------------------
 Plugins (See each plugins repository to have more informations)
@@ -99,7 +101,7 @@ Plugins (See each plugins repository to have more informations)
 	- **AutoComplPop**: show popup for autocompletion when typing.
 
 - Snippets:
-	- **Snippets**: provide snippers in a large category of filetypes
+	- **vim-snipmate**: provide snippets in a large category of filetypes
 
 - Comments:
 	- **NerdCommenter**: provides shortcuts to (un)comment lines in several filetype
@@ -112,6 +114,14 @@ Plugins (See each plugins repository to have more informations)
 
 - Source code browsing:
 	- **tag-list**: provides a list with all defined variables and functions and give direct access to their definition.
+
+- Web development:
+	- **html5.vim**: improved HTML5 support.
+	- **vim-css3-syntax**: improved CSS3 support.
+	- **MatchTagAlways**: highlight tags couples.
+	- **vim-less**: support for less syntax.
+	- **bootstrap-snippets**: snippets for bootstrap. Autocomplete is activated
+	  by default.
 
 - MISC:
 	- **number-vim**: improve line numbering
