@@ -70,6 +70,13 @@ Plug 'vim-IDE/vim-css3-syntax'
 " 	the dynamic stylesheet language LESS.
 " 	Fork from https://github.com/groenewege/vim-less
 Plug 'vim-IDE/vim-less'
+
+" bootstrap-snippets
+" dependencies: vim-snipmate, tlip_vim and vim-addow-mw-utils
+" HTML and Haml snippets for Twitter Bootstrap 3.3.2 markup, for the Vim plugin
+" snipMate.
+" 	Fork from https://github.com/bonsaiben/bootstrap-snippets
+Plug 'vim-IDE/bootstrap-snippets'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
@@ -87,6 +94,23 @@ Plug 'vim-IDE/vim-fugitive'
 " 	programming languages.
 " 	Fork from https://github.com/vim-scripts/taglist.vim
 Plug 'vim-IDE/taglist.vim'
+
+" vim-snipmate (needed for bootstrap-snipmate)
+" SnipMate aims to provide support for textual snippets, similar to TextMate or
+" other Vim plugins like UltiSnips.
+" 	Fork from https://github.com/garbas/vim-snipmate
+Plug 'vim-IDE/vim-snipmate'
+
+" tlib_vim (needed for bootstrap-snipmate)
+" This library provides some utility functions.
+" 	Fork from https://github.com/tomtom/tlib_vim
+Plug 'vim-IDE/tlib_vim'
+
+" vim-addon-mw-utils (needed for bootstrap-snipmate)
+" Various utils such as caching interpreted contents of files or advanced glob
+" like things.
+" 	Fork from https://github.com/MarcWeber/vim-addon-mw-utils
+Plug 'vim-IDE/vim-addon-mw-utils'
 
 " AutoComplPop:
 " 	A code completion engine for vim. Instead of using C-X shortcuts,

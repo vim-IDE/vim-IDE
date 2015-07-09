@@ -10,3 +10,10 @@ autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set cc=0
 " syntax highlighting, we have to set filetype
 autocmd BufEnter,BufNewFile *.php		setfiletype html.php
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Autocomplete for bootstrap-snippets
+set dictionary+=~/.vim/bundle/bootstrap-snippets/dictionary
+set complete+=k
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
