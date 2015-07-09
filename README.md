@@ -72,6 +72,8 @@ Functionnalities (comparison with GUI IDE)
 ===================================
 
  - **Templates**: work with C/C++, LaTeX, Shell (using *c-vim*, *latex-suite*, *bash-support*)
+ - **Snippets**: insert snippets rapidly with *vim-snippets*. It improves your
+   productivity by avoiding you to type a long function or instruction.
  - **Syntax highlightning/checking**: work with a lot of languages, and warning you as you type for syntax errors.
  - **Integrated version control**: Git integration (using *fugitive*)
  - **Refactoring**: work (at the moment) with java using JavaRename (using *Eclim*), and OCaml (using *merlin*, manually installed)
@@ -82,7 +84,7 @@ Functionnalities (comparison with GUI IDE)
  - **Android development**: with *Eclim*, it provides a complete interface to *Eclipse* functionnalities.
  - **Markdown edition**: By default in vim.
  - **Web development**: syntax checker and highlighting (default in vim).
-   Improved with two plugins for HTML5 and CSS3. It matches tags with *MatchTagAlways*.
+   Improved with two plugins for HTML5 and CSS3, supporting LESS and providing Bootstrap snippets. It matches tags with *MatchTagAlways*.
 
 -------------------
 Plugins (See each plugins repository to have more informations)
@@ -105,7 +107,7 @@ Plugins (See each plugins repository to have more informations)
 	- **AutoComplPop**: show popup for autocompletion when typing.
 
 - Snippets:
-	- **Snippets**: provide snippers in a large category of filetypes
+	- **vim-snipmate**: provide snippets in a large category of filetypes
 
 - Comments:
 	- **NerdCommenter**: provides shortcuts to (un)comment lines in several filetype
@@ -127,6 +129,8 @@ Plugins (See each plugins repository to have more informations)
 	- **vim-css3-syntax**: improved CSS3 support.
 	- **MatchTagAlways**: highlight tags couples.
 	- **vim-less**: support for less syntax.
+	- **bootstrap-snippets**: snippets for bootstrap. Autocomplete is activated
+	  by default.
 
 - Arduino development:
 	- **vim-arduino-ino**: provides keybindings and access to template like *arduino-ide*. Use *ino*.
