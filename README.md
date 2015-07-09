@@ -90,6 +90,9 @@ Plugins (See each plugins repository to have more informations)
 	- **vim-css3-syntax**: improved CSS3 support.
 	- **MatchTagAlways**: highlight tags couples.
 	- **vim-less**: support for less syntax.
+	- **bootstrap-snippets**: bootstrap snippets. It's not needed to remember
+	  all code to insert a carousel or a button, just type "carousel" or "btn"
+	  and **bootstrap-snippets** inserts automatically the code.
 
 - Syntax highlightning:
 
