@@ -3,6 +3,7 @@
 autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set textwidth=0
 autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set wrapmargin=0
 autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set cc=0
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set expandtab
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -13,7 +14,7 @@ autocmd BufEnter,BufNewFile *.php		setfiletype html.php
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Autocomplete for bootstrap-snippets
-set dictionary+=~/.vim/bundle/bootstrap-snippets/dictionary
-set complete+=k
+autocmd BufNewFile,BufRead *.html,*.css,*.php set dictionary+=~/.vim/bundle/bootstrap-snippets/dictionary
+autocmd BufNewFile,BufRead *.html,*.css,*.php set complete+=k
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
