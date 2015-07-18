@@ -200,6 +200,11 @@ Plug 'vim-IDE/MatchTagAlways'
 " 	Close automatically all tags with an appropriate indentation
 " 	Fork from https://github.com/alvan/vim-closetag
 Plug 'vim-IDE/vim-closetag'
+
+" vim-coloresque
+" 	Colorize all text in the form #rrggbb or #rgb
+" 	Fork from https://github.com/gorodinskiy/vim-coloresque
+Plug 'vim-IDE/vim-coloresque'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
