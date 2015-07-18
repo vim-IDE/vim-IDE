@@ -71,6 +71,11 @@ Plug 'vim-IDE/vim-css3-syntax'
 " 	Fork from https://github.com/groenewege/vim-less
 Plug 'vim-IDE/vim-less'
 
+" scss-syntax.vim
+" Vim Syntax File for SCSS (Sassy CSS)
+" Fork from https://github.com/cakebaker/scss-syntax.vim
+Plug 'vim-IDE/scss-syntax.vim'
+
 " bootstrap-snippets
 " dependencies: vim-snipmate, tlip_vim and vim-addow-mw-utils
 " HTML and Haml snippets for Twitter Bootstrap 3.3.2 markup, for the Vim plugin
@@ -140,7 +145,6 @@ Plug 'vim-IDE/syntastic'
 
 " ctrlp:
 " 	Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
-"
 " 	- Written in pure Vimscript for MacVim, gVim and Vim 7.0+.
 " 	- Full support for Vim's regexp as search patterns.
 " 	- Built-in Most Recently Used (MRU) files monitoring.
@@ -186,8 +190,8 @@ Plug 'vim-IDE/vim-better-whitespace'
 Plug 'vim-IDE/vim-task'
 
 " MatchTagAlways
-" The MatchTagAlways.vim (MTA) plug-in for the Vim text editor always highlights
-" the XML/HTML tags that enclose your cursor location.
+" 	The MatchTagAlways.vim (MTA) plug-in for the Vim text editor always highlights
+" 	the XML/HTML tags that enclose your cursor location.
 " 	Fork from https://github.com/dannywillems/MatchTagAlways (multiple filetype
 " 	improvement).
 Plug 'vim-IDE/MatchTagAlways'
