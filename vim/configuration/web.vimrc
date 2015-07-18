@@ -18,3 +18,6 @@ autocmd BufNewFile,BufRead *.html,*.css,*.php set dictionary+=~/.vim/bundle/boot
 autocmd BufNewFile,BufRead *.html,*.css,*.php set complete+=k
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:closetag_filenames = "*.php,*.html,*.xml"
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
