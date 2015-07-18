@@ -131,4 +131,4 @@ Improvements
 =================================================
 
  - *Eclim*: For now, you need to install manually. See http://eclim.org/ to install it and for documentation.
- - Add more functionnalities such as Grunt/Gulp keybindings, SASS support, etc.
+ - Add more functionnalities such as Grunt/Gulp keybindings, etc.
