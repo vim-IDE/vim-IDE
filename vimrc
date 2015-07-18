@@ -195,6 +195,11 @@ Plug 'vim-IDE/vim-task'
 " 	Fork from https://github.com/dannywillems/MatchTagAlways (multiple filetype
 " 	improvement).
 Plug 'vim-IDE/MatchTagAlways'
+
+" vim-closetag
+" 	Close automatically all tags with an appropriate indentation
+" 	Fork from https://github.com/alvan/vim-closetag
+Plug 'vim-IDE/vim-closetag'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
