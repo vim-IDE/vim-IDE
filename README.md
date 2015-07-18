@@ -80,7 +80,7 @@ Functionnalities (comparison with GUI IDE)
  - **Project management**: work with PHP, HTML/CSS, JS (using *Eclim*)
  - **Fast commenting**: work with a lot of filetype (using *NerdCommenter*)
  - **Web development**: syntax checker and highlighting (default in vim).
-   Improved with two plugins for HTML5 and CSS3, supporting LESS and providing Bootstrap snippets. It matches tags with *MatchTagAlways*.
+   Improved with two plugins for HTML5 and CSS3, supporting LESS and SASS, and providing Bootstrap snippets. It matches tags with *MatchTagAlways* and tags are automatically closed with *vim-closetag*.
 
 -------------------
 Plugins (See each plugins repository to have more informations)
@@ -123,6 +123,8 @@ Plugins (See each plugins repository to have more informations)
 	- **vim-css3-syntax**: improved CSS3 support.
 	- **MatchTagAlways**: highlight tags couples.
 	- **vim-less**: support for less syntax.
+	- **scss-syntax.vim**: vim syntax for scss files.
+	- **vim-closetag**: automatically close tag.
 	- **bootstrap-snippets**: bootstrap snippets. It's not needed to remember
 	  all code to insert a carousel or a button, just type "carousel" or "btn"
 	  and bootstrap-snippets inserts automatically the code.  Autocompletion is
