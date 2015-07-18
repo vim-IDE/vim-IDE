@@ -81,6 +81,7 @@ Functionnalities (comparison with GUI IDE)
  - **Fast commenting**: work with a lot of filetype (using *NerdCommenter*)
  - **Web development**: syntax checker and highlighting (default in vim).
    Improved with two plugins for HTML5 and CSS3, supporting LESS and SASS, and providing Bootstrap snippets. It matches tags with *MatchTagAlways* and tags are automatically closed with *vim-closetag*.
+   An useful plugin (*vim-coloresque*) highlights the text in the corresponding color it describes.
 
 -------------------
 Plugins (See each plugins repository to have more informations)
@@ -96,6 +97,7 @@ Plugins (See each plugins repository to have more informations)
 	  all code to insert a carousel or a button, just type "carousel" or "btn"
 	  and *bootstrap-snippets* inserts automatically the code.  Autocompletion is
 	  activated by default.
+	- **vim-coloresque**: highlight the text in the form #rrggbb or #rgb in the corresponding color.
 
 - Syntax highlightning:
 
