@@ -78,14 +78,14 @@ Functionnalities (comparison with GUI IDE)
  - **Integrated version control**: Git integration (using *fugitive*)
  - **Refactoring**: work (at the moment) with java using JavaRename (using *Eclim*), and OCaml (using *merlin*, manually installed)
  - **Building**: Fast access to build and deploy functionnalities.
- - **Autocompletion**: work with a lot of languages (using *AutoComplPop*)
+ - **Autocompletion**: work with a lot of languages (using *YouCompleteMe*)
  - **Project management**: work with C, C++, PHP, HTML/CSS, JS, JAVA, PYTHON (using *Eclim*)
  - **Fast commenting**: work with a lot of filetype (using *NerdCommenter*)
  - **Android development**: with *Eclim*, it provides a complete interface to *Eclipse* functionnalities.
  - **Markdown edition**: By default in vim.
  - **Web development**: syntax checker and highlighting (default in vim).
    Improved with two plugins for HTML5 and CSS3, supporting LESS and SASS, and providing Bootstrap snippets. It matches tags with *MatchTagAlways* and tags are automatically closed with *vim-closetag*.
-   An useful plugin (*vim-coloresque*) highlights the text in the corresponding color it describes.
+   An useful plugin (*vim-coloresque*) highlights the text in the corresponding color it describes. Improves php completion with *phpcomplete.vim* and the node development with *vim-node*.
 
 -------------------
 Plugins (See each plugins repository to have more informations)
@@ -105,7 +105,7 @@ Plugins (See each plugins repository to have more informations)
 	- **NerdTree**: File manager. Show in a split windows a tree with your files. It's an alternative for *Eclim* if you edit something not supported by *Eclim*.
 
 - Autocompletion:
-	- **AutoComplPop**: show popup for autocompletion when typing.
+	- **YouCompleteMe**: show popup for autocompletion when typing.
 
 - Snippets:
 	- **vim-snipmate**: provide snippets in a large category of filetypes
@@ -136,6 +136,8 @@ Plugins (See each plugins repository to have more informations)
 	  all code to insert a carousel or a button, just type "carousel" or "btn"
 	  and bootstrap-snippets inserts automatically the code.  Autocompletion is
 	  activated by default.
+	- **phpcomplete.vim**: Improve php complete.
+	- **vim-node**: Improve node development..
 	- **vim-coloresque**: highlight the text in the form #rrggbb or #rgb in the corresponding color.
 
 - Arduino development:

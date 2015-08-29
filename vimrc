@@ -82,6 +82,16 @@ Plug 'vim-IDE/scss-syntax.vim'
 " snipMate.
 " 	Fork from https://github.com/bonsaiben/bootstrap-snippets
 Plug 'vim-IDE/bootstrap-snippets'
+
+" phpcomplete.vim
+" Improved PHP omni-completion. Based on the default phpcomplete.vim.
+" Fork from https://github.com/shawncplus/phpcomplete.vim
+Plug 'vim-IDE/phpcomplete.vim'
+
+" vim-node
+" Fork from https://github.com/moll/vim-node
+" Tools to make Vim superb for developing with Node.js.
+Plug 'vim-IDE/vim-node'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
@@ -117,11 +127,12 @@ Plug 'vim-IDE/tlib_vim'
 " 	Fork from https://github.com/MarcWeber/vim-addon-mw-utils
 Plug 'vim-IDE/vim-addon-mw-utils'
 
-" AutoComplPop:
+" YouCompleteMe:
 " 	A code completion engine for vim. Instead of using C-X shortcuts,
-" 	AutoComplPop shows you a box when you're typing.
-" 	Fork from https://github.com/vim-scripts/AutoComplPop
-Plug 'vim-IDE/AutoComplPop'
+" 	YouCompleteMe shows you a box when you're typing.
+" 	Fork from https://github.com/Valloric/YouCompleteMe
+"Plug 'vim-IDE/YouCompleteMe'
+Plug 'vim-IDE/YouCompleteMe', {'do': './install.py --clang-completer'}
 
 " nerdtree:
 " 	The NERD tree allows you to explore your filesystem and to open files
@@ -267,3 +278,5 @@ source ~/.vim/configuration/python.vimrc
 source ~/.vim/configuration/java.vimrc
 
 source ~/.vim/configuration/web.vimrc
+
+source ~/.vim/configuration/make.vimrc
