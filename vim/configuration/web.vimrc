@@ -21,3 +21,8 @@ autocmd BufNewFile,BufRead *.html,*.css,*.php set complete+=k
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:closetag_filenames = "*.php,*.html,*.xml"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+au FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+au FileType php set omnifunc=phpcomplete#CompletePHP
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
