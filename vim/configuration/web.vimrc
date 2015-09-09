@@ -1,9 +1,9 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Wrapping isn't used by a lot of web developer, so it's unset
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss  set textwidth=0
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss  set wrapmargin=0
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss  set cc=0
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss set expandtab
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set textwidth=0
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set wrapmargin=0
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set cc=0
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml set expandtab
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
