@@ -139,6 +139,7 @@ Plugins (See each plugins repository to have more informations)
 	- **phpcomplete.vim**: Improve php complete.
 	- **vim-node**: Improve node development..
 	- **vim-coloresque**: highlight the text in the form #rrggbb or #rgb in the corresponding color.
+	- **gulp-vim**: Wrapper to gulp
 
 - Arduino development:
 	- **vim-arduino-ino**: provides keybindings and access to template like *arduino-ide*. Use *ino*.

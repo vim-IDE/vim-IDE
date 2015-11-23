@@ -92,6 +92,11 @@ Plug 'vim-IDE/phpcomplete.vim'
 " Fork from https://github.com/moll/vim-node
 " Tools to make Vim superb for developing with Node.js.
 Plug 'vim-IDE/vim-node'
+
+" gulp-vim
+" Fork from https://github.com/KabbAmine/gulp-vim
+" Wrapper to gulp
+Plug 'vim-IDE/gulp-vim'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
