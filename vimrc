@@ -278,5 +278,4 @@ source ~/.vim/configuration/python.vimrc
 source ~/.vim/configuration/java.vimrc
 
 source ~/.vim/configuration/web.vimrc
-
-source ~/.vim/configuration/make.vimrc
+source ~/.vim/configuration/vim-task.vimrc
