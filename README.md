@@ -140,6 +140,8 @@ Plugins (See each plugins repository to have more informations)
 	- **vim-node**: Improve node development..
 	- **vim-coloresque**: highlight the text in the form #rrggbb or #rgb in the corresponding color.
 	- **gulp-vim**: Wrapper to gulp
+	- **emmet-vim**: emmet-vim is a vim plug-in which provides support for
+	  expanding abbreviations similar to emmet.
 
 - Arduino development:
 	- **vim-arduino-ino**: provides keybindings and access to template like *arduino-ide*. Use *ino*.

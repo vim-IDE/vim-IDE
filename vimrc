@@ -60,6 +60,12 @@ Plug 'vim-IDE/vim-arduino-ino'
 " 	Fork from https://github.com/othree/html5.vim
 Plug 'vim-IDE/html5.vim'
 
+" emmet.vim
+" emmet-vim is a vim plug-in which provides support for expanding abbreviations
+" similar to emmet.
+" Fork from https://github.com/mattn/emmet-vim
+Plug 'vim-IDE/emmet-vim'
+
 " vim-css3-syntax.vim
 " 	Add CSS3 syntax support to Vim's built-in syntax/css.vim.
 " 	Fork from https://github.com/hail2u/vim-css3-syntax
