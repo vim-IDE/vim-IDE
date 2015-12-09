@@ -288,5 +288,10 @@ source ~/.vim/configuration/python.vimrc
 " 	Replace tab with spaces (4 by default in misc.vimrc) in java files.
 source ~/.vim/configuration/java.vimrc
 
+" ocaml.vimrc:
+" 	Configure merlin and ocp-indent. Be sure to have install ocp-indent and
+" 	merlin.
+source ~/.vim/configuration/ocaml.vimrc
+
 source ~/.vim/configuration/web.vimrc
 source ~/.vim/configuration/vim-task.vimrc
