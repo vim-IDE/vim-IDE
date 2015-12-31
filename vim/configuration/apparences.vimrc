@@ -1,4 +1,4 @@
-colorscheme molokai
+colorscheme monokai
 set list listchars=tab:»·,trail:·
 
 " Number of color

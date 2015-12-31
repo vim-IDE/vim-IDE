@@ -231,10 +231,10 @@ Plug 'vim-IDE/vim-coloresque'
 
 " -----------------------------------------------------------------------------
 " ----- Themes
-" Molokai:
-" 	Because Molokai is beautiful
-" 	https://github.com/tomasr/molokai
-Plug 'tomasr/molokai'
+" Monokai:
+" 	Because Monokai is beautiful
+" 	https://github.com/sickill/vim-monokai
+Plug 'sickill/vim-monokai'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
