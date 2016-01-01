@@ -101,11 +101,11 @@ Plugins (See each plugins repository to have more informations)
 - Syntax highlightning:
 
 - Project management:
-	- **Eclim**: interface to eclipse (need *Eclipse Luna*). Please see the "Improvements" section about *Eclim*. Need to be installed manually.
+	- [Eclim](http://eclim.org): interface to eclipse (need *Eclipse Luna*). Please see the "Improvements" section about *Eclim*. Need to be installed manually.
 	- **[NerdTree](https://github.com/vim-ide/nerdtree)**: File manager. Show in a split windows a tree with your files. It's an alternative for *Eclim* if you edit something not supported by *Eclim*.
 
 - Autocompletion:
-	- **[YouCompleteMe](https://github.com/vim-ide/youcomplete)**: show popup for autocompletion when typing.
+	- **[YouCompleteMe](https://github.com/vim-ide/youcompleteme)**: show popup for autocompletion when typing.
 
 - Snippets:
 	- **[vim-snipmate](https://github.com/vim-ide/vim-snipmate)**: provide snippets in a large category of filetypes
@@ -147,7 +147,7 @@ Plugins (See each plugins repository to have more informations)
 	- **[vim-arduino-ino](https://github.com/vim-ide/vim-arduino-ino)**: provides keybindings and access to template like *arduino-ide*. Use *ino*.
 
 - MISC:
-	- **[number-vim](https://github.com/vim-ide/number-vim)**: improve line numbering
+	- **[numbers.vim](https://github.com/vim-ide/numbers.vim)**: improve line numbering
 	- **[vim-airline](https://github.com/vim-ide/vim-airline)**: Provide a rich status line, showing the branch you're working on.
 	- **[vim-better-whitespaces](https://github.com/vim-ide/vim-better-whitespaces)**: provides some commands to delete spaces at the end of lines, extra tabs, etc.
 	- **[vim-task](https://github.com/vim-ide/vim-task)**: provides highlight and shortcuts to manage a todo file. Extensive with your own file extensions.
