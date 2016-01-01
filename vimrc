@@ -23,6 +23,12 @@ call plug#begin('~/.vim/bundle')
 " 	Fork from https://github.com/othree/html5.vim
 Plug 'vim-IDE/html5.vim'
 
+" emmet.vim
+" emmet-vim is a vim plug-in which provides support for expanding abbreviations
+" similar to emmet.
+" Fork from https://github.com/mattn/emmet-vim
+Plug 'vim-IDE/emmet-vim'
+
 " vim-css3-syntax.vim
 " 	Add CSS3 syntax support to Vim's built-in syntax/css.vim.
 " 	Fork from https://github.com/hail2u/vim-css3-syntax
@@ -45,6 +51,21 @@ Plug 'vim-IDE/scss-syntax.vim'
 " snipMate.
 " 	Fork from https://github.com/bonsaiben/bootstrap-snippets
 Plug 'vim-IDE/bootstrap-snippets'
+
+" phpcomplete.vim
+" Improved PHP omni-completion. Based on the default phpcomplete.vim.
+" Fork from https://github.com/shawncplus/phpcomplete.vim
+Plug 'vim-IDE/phpcomplete.vim'
+
+" vim-node
+" Fork from https://github.com/moll/vim-node
+" Tools to make Vim superb for developing with Node.js.
+Plug 'vim-IDE/vim-node'
+
+" gulp-vim
+" Fork from https://github.com/KabbAmine/gulp-vim
+" Wrapper to gulp
+Plug 'vim-IDE/gulp-vim'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
@@ -80,11 +101,12 @@ Plug 'vim-IDE/tlib_vim'
 " 	Fork from https://github.com/MarcWeber/vim-addon-mw-utils
 Plug 'vim-IDE/vim-addon-mw-utils'
 
-" AutoComplPop:
+" YouCompleteMe:
 " 	A code completion engine for vim. Instead of using C-X shortcuts,
-" 	AutoComplPop shows you a box when you're typing.
-" 	Fork from https://github.com/vim-scripts/AutoComplPop
-Plug 'vim-IDE/AutoComplPop'
+" 	YouCompleteMe shows you a box when you're typing.
+" 	Fork from https://github.com/Valloric/YouCompleteMe
+"Plug 'vim-IDE/YouCompleteMe'
+Plug 'vim-IDE/YouCompleteMe', {'do': './install.py --clang-completer'}
 
 " nerdtree:
 " 	The NERD tree allows you to explore your filesystem and to open files
@@ -172,11 +194,12 @@ Plug 'vim-IDE/vim-coloresque'
 
 " -----------------------------------------------------------------------------
 " ----- Themes
-" Molokai:
-" 	Because Molokai is beautiful
-" 	https://github.com/tomasr/molokai
-Plug 'tomasr/molokai'
+" Monokai:
+" 	Because Monokai is beautiful
+" 	https://github.com/sickill/vim-monokai
+Plug 'sickill/vim-monokai'
 " -----------------------------------------------------------------------------
+
 
 " -----------------------------------------------------------------------------
 "  Plugin manager : Plug.
