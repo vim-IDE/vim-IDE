@@ -1,9 +1,9 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Wrapping isn't used by a lot of web developer, so it's unset
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set textwidth=0
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set wrapmargin=0
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set cc=0
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js set expandtab
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set textwidth=0
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set wrapmargin=0
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set cc=0
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml set expandtab
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -20,4 +20,9 @@ autocmd BufNewFile,BufRead *.html,*.css,*.php set complete+=k
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:closetag_filenames = "*.php,*.html,*.xml"
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+au FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+au FileType php set omnifunc=phpcomplete#CompletePHP
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
