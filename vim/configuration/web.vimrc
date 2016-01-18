@@ -3,7 +3,9 @@
 autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set textwidth=0
 autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set wrapmargin=0
 autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set cc=0
-autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml set expandtab
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set expandtab
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set ts=2
+autocmd BufNewFile,BufRead *.html,*.css,*.php,*.js,*.less,*.scss,*.json,*.xml  set shiftwidth=2
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
