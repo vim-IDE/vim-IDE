@@ -92,65 +92,65 @@ Plugins (See each plugins repository to have more informations)
 =======
 - Programming languages support:
 - Vim supports a huge range of programming languages by default. But, it exists some plugins that improve some programming languages support.
-	- **C**: c-vim
-	- **Shell**: bash-support.vim
-	- **LaTeX**: latex-suite
-	- **Go**: vim-go
-  - **Arduino**: vim-arduino-ino
+	- **C**: [c.vim](https://github.com/vim-ide/c.vim)
+	- **Shell**: [bash-support.vim](https://github.com/vim-ide/bash-support.vim)
+	- **LaTeX**: [vim-latex](https://github.com/vim-ide/vim-latex)
+	- **Go**: [vim-go](https://github.com/vim-ide/vim-go)
+  - **Arduino**: [vim-arduino-ino](https://github.com/vim-ide/vim-arduino-ino)
 
 - Syntax highlightning:
 
 - Project management:
-	- **Eclim**: interface to eclipse (need *Eclipse Luna*). Please see the "Improvements" section about *Eclim*. Need to be installed manually.
-	- **NerdTree**: File manager. Show in a split windows a tree with your files. It's an alternative for *Eclim* if you edit something not supported by *Eclim*.
+	- [Eclim](http://eclim.org): interface to eclipse (need *Eclipse Luna*). Please see the "Improvements" section about *Eclim*. Need to be installed manually.
+	- **[NerdTree](https://github.com/vim-ide/nerdtree)**: File manager. Show in a split windows a tree with your files. It's an alternative for *Eclim* if you edit something not supported by *Eclim*.
 
 - Autocompletion:
-	- **YouCompleteMe**: show popup for autocompletion when typing.
+	- **[YouCompleteMe](https://github.com/vim-ide/youcompleteme)**: show popup for autocompletion when typing.
 
 - Snippets:
-	- **vim-snipmate**: provide snippets in a large category of filetypes
+	- **[vim-snipmate](https://github.com/vim-ide/vim-snipmate)**: provide snippets in a large category of filetypes
 
 - Comments:
-	- **NerdCommenter**: provides shortcuts to (un)comment lines in several filetype
+	- **[NerdCommenter](https://github.com/vim-ide/nerdcommenter)**: provides shortcuts to (un)comment lines in several filetype
 
 - Build and deploy applications:
-	- **Eclim**: Build and deploy *Android* applications. Need to be installed manually.
+	- **[Eclim](http://eclim.org)**: Build and deploy *Android* applications. Need to be installed manually.
 
 - Version control:
-	- **Fugitive**: provides git command by using *:Git add*, *:Git commit*, etc directly in vim.
+	- **[Vim-Fugitive](https://github.com/vim-ide/vim-fugitive)**: provides git command by using *:Git add*, *:Git commit*, etc directly in vim.
 
 - Real-time syntax checking:
-	- **syntastic**: provides a real time syntax checking. If you forgot a brace, a parenthesis, a semi colon, or something else, *syntastic* prevents you. It works for a lot of programming languages.
+	- **[syntastic](https://github.com/vim-ide/syntastic)**: provides a real time syntax checking. If you forgot a brace, a parenthesis, a semi colon, or something else, *syntastic* prevents you. It works for a lot of programming languages.
 
 - Source code browsing:
-	- **tag-list**: provides a list with all defined variables and functions and give direct access to their definition.
+	- **[taglist.vim](https://github.com/vim-ide/taglist.vim)**: provides a list with all defined variables and functions and give direct access to their definition.
 
 - Web development:
-	- **html5.vim**: improved HTML5 support.
-	- **vim-css3-syntax**: improved CSS3 support.
-	- **MatchTagAlways**: highlight tags couples.
-	- **vim-less**: support for less syntax.
-	- **scss-syntax.vim**: vim syntax for scss files.
-	- **vim-closetag**: automatically close tag.
-	- **bootstrap-snippets**: bootstrap snippets. It's not needed to remember
+	- **[html5.vim](https://github.com/vim-ide/html5.vim)**: improved HTML5 support.
+	- **[vim-css3-syntax](https://github.com/vim-ide/vim-css3-syntax)**: improved CSS3 support.
+	- **[MatchTagAlways](https://github.com/vim-ide/matchtagalways)**: highlight tags couples.
+	- **[vim-less](https://github.com/vim-ide/vim-less)**: support for less syntax.
+	- **[scss-syntax.vim](https://github.com/vim-ide/scss-syntax.vim)**: vim syntax for scss files.
+	- **[vim-closetag](https://github.com/vim-ide/vim-closetag)**: automatically close tag.
+	- **[bootstrap-snippets](https://github.com/vim-ide/bootstrap-snippets)**: bootstrap snippets. It's not needed to remember
 	  all code to insert a carousel or a button, just type "carousel" or "btn"
 	  and bootstrap-snippets inserts automatically the code.  Autocompletion is
 	  activated by default.
-	- **phpcomplete.vim**: Improve php complete.
-	- **vim-node**: Improve node development..
-	- **vim-coloresque**: highlight the text in the form #rrggbb or #rgb in the corresponding color.
-	- **gulp-vim**: Wrapper to gulp
-	- **emmet-vim**: emmet-vim is a vim plug-in which provides support for
+	- **[phpcomplete.vim](https://github.com/vim-ide/phpcomplete.vim)**: Improve php complete.
+	- **[vim-node](https://github.com/vim-ide/vim-node)**: Improve node development..
+	- **[vim-coloresque](https://github.com/vim-ide/vim-coloresque)**: highlight the text in the form #rrggbb or #rgb in the corresponding color.
+	- **[gulp-vim](https://github.com/vim-ide/gulp-vim)**: Wrapper to gulp
+	- **[emmet-vim](https://github.com/vim-ide/emmet-vim)**: emmet-vim is a vim plug-in which provides support for
 	  expanding abbreviations similar to emmet.
 
 - Arduino development:
-	- **vim-arduino-ino**: provides keybindings and access to template like *arduino-ide*. Use *ino*.
+	- **[vim-arduino-ino](https://github.com/vim-ide/vim-arduino-ino)**: provides keybindings and access to template like *arduino-ide*. Use *ino*.
 
 - MISC:
-	- **number-vim**: improve line numbering
-	- **vim-airline**: Provide a rich status line, showing the branch you're working on.
-	- **vim-better-whitespaces**: provides some commands to delete spaces at the end of lines, extra tabs, etc.
-	- **vim-task**: provides highlight and shortcuts to manage a todo file. Extensive with your own file extensions.
+	- **[numbers.vim](https://github.com/vim-ide/numbers.vim)**: improve line numbering
+	- **[vim-airline](https://github.com/vim-ide/vim-airline)**: Provide a rich status line, showing the branch you're working on.
+	- **[vim-better-whitespaces](https://github.com/vim-ide/vim-better-whitespaces)**: provides some commands to delete spaces at the end of lines, extra tabs, etc.
+	- **[vim-task](https://github.com/vim-ide/vim-task)**: provides highlight and shortcuts to manage a todo file. Extensive with your own file extensions.
 
 Improvements
 =================================================
