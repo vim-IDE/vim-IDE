@@ -14,6 +14,6 @@ let g:syntastic_ocaml_checkers = ["merlin"]
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd BufNewFile,BufRead *.ml,*.mli  set ts=2
-autocmd BufNewFile,BufRead *.ml,*.mli  set shiftwidth=2
+autocmd BufNewFile,BufRead *.ml,*.mli set ts=2
+autocmd BufNewFile,BufRead *.ml,*.mli set shiftwidth=2
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
