@@ -234,7 +234,7 @@ Plug 'vim-IDE/vim-coloresque'
 " Monokai:
 " 	Because Monokai is beautiful
 " 	https://github.com/sickill/vim-monokai
-Plug 'sickill/vim-monokai'
+Plug 'tomasr/molokai'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
@@ -295,3 +295,5 @@ source ~/.vim/configuration/ocaml.vimrc
 
 source ~/.vim/configuration/web.vimrc
 source ~/.vim/configuration/vim-task.vimrc
+source ~/.vim/configuration/bash.vimrc
+source ~/.vim/configuration/markdown.vimrc
