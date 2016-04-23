@@ -153,6 +153,12 @@ Plug 'vim-IDE/YouCompleteMe', {'do': './install.py --clang-completer'}
 " 	Fork from https://github.com/scrooloose/nerdtree
 Plug 'vim-IDE/nerdtree'
 
+" vim-nerdtree-tabs
+" This plugin aims at making NERDTree feel like a true panel, independent of
+" tabs.
+" 	Fork from https://github.com/jistr/vim-nerdtree-tabs
+Plug 'vim-IDE/vim-nerdtree-tabs'
+
 " nerdcommenter:
 " 	Provides general shortcuts to comment/uncomment. No matter if you're
 " 	coding in C, Python, OCaml or any others programming languages, the
