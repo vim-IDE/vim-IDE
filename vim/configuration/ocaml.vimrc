@@ -11,8 +11,9 @@ let g:syntastic_ocaml_checkers = ["merlin"]
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd BufNewFile,BufRead *.ml,*.mli set ts=2
-autocmd BufNewFile,BufRead *.ml,*.mli set shiftwidth=2
+autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis set ts=2
+autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis set shiftwidth=2
+autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis set expandtab
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """ Don't use syntastic on mly and mll files
