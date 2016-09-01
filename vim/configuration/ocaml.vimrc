@@ -11,10 +11,17 @@ let g:syntastic_ocaml_checkers = ["merlin"]
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis set ts=2
-autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis set shiftwidth=2
-autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis set expandtab
+autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis,*.eliom,*.eliomi set ts=2
+autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis,*.eliom,*.eliomi set shiftwidth=2
+autocmd BufNewFile,BufRead *.ml,*.mli,*.mll,*.mly,_oasis,*.eliom,*.eliomi set expandtab
+autocmd BufNewFile,BufRead *.eliom,*.eliomi set ft=ocaml
+autocmd BufNewFile,BufRead *.eliom,*.eliomi call SyntasticToggleMode()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """ Don't use syntastic on mly and mll files
 let g:syntastic_ignore_files = ['\m\c\.ml[ly]$']
+
+let g:easy_align_delimiters = {
+\ ';' : { 'pattern' : ';' },
+\ 'a' : { 'pattern' : '->'}
+\ }
