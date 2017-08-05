@@ -11,14 +11,19 @@ Table of contents
 
 What's the purpose of vim-ide ?
 ==========================
-I think every vim user is agree if I say vim is a wonderful text editor with his key mappings and his modes.
+ I think every vim user agrees with me if I say that vim is a wonderfull editor
+ thanks to its key mapping and its modes.
 
-At the beginning, vim isn't configured to develop with. We need to install loads of plugins, search on the Internet which plugins can do what we want.
-We can also write your own plugin if you're lazy to search for an existing one doing what you want.
+ At first, vim is not configured to develop with. One needs to install a ton of
+ plugins, search the internet to know which plugin does what one needs, etc. You
+ can also write your own plugin if you are confortable enough and/or too lazy to
+ search extensively for the existing one that would match your needs.
 
-These things take time, and we (developers) don't want to lost time to configure our IDE.
+ This takes time, and we (developers) don't want to lose time configuring our
+ IDE from scratch.
 
-So, vim-IDE is here to help you. It helps you by integrating a list of plugins which will transform vim in a full IDE, and it's **easy** to install.
+ So, vim-IDE is here to help you. It helps you by integrating a list of plugins 
+ which will transform vim in a full IDE, and it's **easy** to install.
 
 ------------------
 Installation
