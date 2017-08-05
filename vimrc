@@ -44,13 +44,20 @@ Plug 'vim-IDE/bash-support.vim'
 " 	beginning.
 " 	- Use code snippets
 " 	Fork from https://github.com/vim-scripts/c.vim
-Plug 'vim-IDE/c.vim'
+Plug 'vim-IDE/c.vim', {'branch': '42_school'}
+
+" vim-javacomplete
+Plug 'artur-shaik/vim-javacomplete2'
 
 " vim-arduino-ino:
 " 	Provides an interface and some shortcuts to ino for arduino
 " 	develpment.
 " 	Fork from https://github.com/jplaut/vim-arduino-ino
 Plug 'vim-IDE/vim-arduino-ino'
+
+" vim-ocaml
+" 	 Vim runtime files for OCaml
+Plug 'dannywillems/vim-ocaml'
 
 " Plugins improving web development support.
 "
@@ -103,6 +110,10 @@ Plug 'vim-IDE/vim-node'
 " Fork from https://github.com/KabbAmine/gulp-vim
 " Wrapper to gulp
 Plug 'vim-IDE/gulp-vim'
+
+Plug 'derekwyatt/vim-scala'
+
+Plug 'flowtype/vim-flow', {'autoload': {'filetypes': 'javascript'}}
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
@@ -119,7 +130,7 @@ Plug 'vim-IDE/vim-fugitive'
 " 	you to efficiently browse through source code files for different
 " 	programming languages.
 " 	Fork from https://github.com/vim-scripts/taglist.vim
-Plug 'vim-IDE/taglist.vim'
+" Plug 'vim-IDE/taglist.vim'
 
 " vim-snipmate (needed for bootstrap-snipmate)
 " SnipMate aims to provide support for textual snippets, similar to TextMate or
@@ -170,6 +181,7 @@ Plug 'vim-IDE/nerdcommenter'
 " 	Syntax checking.
 " 	Fork from https://github.com/scrooloose/syntastic.
 Plug 'vim-IDE/syntastic'
+Plug 'benekastah/neomake'
 
 " ctrlp:
 " 	Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
@@ -233,6 +245,12 @@ Plug 'vim-IDE/vim-closetag'
 " 	Colorize all text in the form #rrggbb or #rgb
 " 	Fork from https://github.com/gorodinskiy/vim-coloresque
 Plug 'vim-IDE/vim-coloresque'
+
+Plug 'junegunn/vim-easy-align'
+
+Plug 'gre/play2vim'
+
+Plug 'vim-scripts/SQLComplete.vim'
 " -----------------------------------------------------------------------------
 
 " -----------------------------------------------------------------------------
@@ -303,3 +321,14 @@ source ~/.vim/configuration/web.vimrc
 source ~/.vim/configuration/vim-task.vimrc
 source ~/.vim/configuration/bash.vimrc
 source ~/.vim/configuration/markdown.vimrc
+source ~/.vim/configuration/yaml.vimrc
+source ~/.vim/configuration/sql.vimrc
+
+autocmd VimLeave * call javacomplete#server#Terminate()
+"tnoremap <Esc> <C-\><C-n>
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
