@@ -19,7 +19,7 @@ autocmd BufNewFile,BufRead *.eliom,*.eliomi call SyntasticToggleMode()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """ Don't use syntastic on mly and mll files
-let g:syntastic_ignore_files = ['\m\c\.ml[ly]$']
+let g:syntastic_ignore_files = ['(\m\c\.ml[ly]|.eliom[i]?)$']
 
 let g:easy_align_delimiters = {
 \ ';' : { 'pattern' : ';' },
